@@ -1,0 +1,27 @@
+
+
+                  controllers 
+lessenController.js
+noteController.js
+studentController.js
+----------------------------------------------
+                   models 
+lessen.js 
+note.js
+student.js
+---------------------------------------------
+                    views 
+     lessen 
+index.html  // show the subject 
+show.html // show all the lessens 
+new.html // add new subject
+
+// new.html // add new lessen
+//edit.html // edit the lessen name
+
+     note
+index.html // show one note 
+edit.html // edit note 
+
+
+filter the subject 

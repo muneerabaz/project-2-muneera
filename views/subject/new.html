@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' href='/static/styles/styles.css'>
+    <title>New Subject</title>
+</head>
+<body id="bodyNewSub">
+    <h1>Creat a new Subject</h1>
+    <div class="links">
+            <a href="/">Subject Home</a>
+            <a href="/subject">All subjects</a>
+    </div>
+    <form class="create-subject" action="/subject" method="POST">
+    <label for="subjectname">
+        subject: <input type="text" name="subjectname" id="subjectname" />
+    </label>
+    <button type="submit">Create new subject</button>
+    </form>
+</body>
+</html>

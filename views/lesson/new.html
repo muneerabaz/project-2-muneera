@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Creat a new lessen</h1>
+    <div class="links">
+            <a href="/lesson/show">All lessens</a>
+    </div>
+    <form class="create-lessons" action="/subject/{{id}}/lesson" method="POST">
+    
+    <label for="topic">
+            topic: <input type="text" name="topic" id="topic" />
+    </label>
+    <label for="notes">
+            notes: <input type="text" name="notes" id="notes" />
+        </label>
+    <button type="submit">Create new lesson</button>
+    </form>
+</body>
+</html>

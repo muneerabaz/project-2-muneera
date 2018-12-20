@@ -1,0 +1,90 @@
+body{
+    background-color: white;
+     /* align-items: center; */
+}
+#bodyMain{
+    background-image: url("https://66.media.tumblr.com/81c09314eb35dd23f31dd3ada9d4b063/tumblr_p3jlceEoXG1qc9t85o1_500.gif");
+    /* background-position: bottom; */
+    /* align-items: center; */
+    height: 300px;
+    width: 100px;
+    /* width: 100%;
+    height: auto; */
+    background-size: contain;
+}
+
+#welcom1{
+    color: rgb(82, 84, 190);
+    font-size: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    /* font-family: fantasy; */
+    /* font-family: "Bradley Hand", cursive; */
+    /* font-size: 900; */
+    font-family: Chalkduster, fantasy;
+    text-align: center;
+    /* height: auto;  */
+    /* display: block; */
+    margin-left: 500px;
+    /* margin-top: 400px; */
+    /* margin-right: 300px; */
+    /* width: 100px; */
+    /* background-position: bottom; */
+    /* margin: auto; */
+    /* margin-left: auto; */
+    /* position: absolute;
+    margin: 0;
+    background-position: bottom right;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 400px; */
+    /* height: 100px; */
+    /* padding-top: 200px; */
+    /* padding-right: 550px; */
+}
+#bodyIndexSub{
+    text-align: center;
+    background-color: white;
+}
+.headline{
+    font-family: Chalkduster, fantasy;
+    font-weight: bold;
+    font-size: px;
+    font-style: italic;
+}
+
+#bodyNewSub{
+    background-color: darkgray;
+    
+}
+
+.class2{
+    text-decoration: none;
+    
+    text-align: center;
+    font-size: 40px;
+}
+
+.allSub{
+    align-items: center;
+    /* text-align: center; */
+    font-size: 18px;
+    font-family: Chalkduster, fantasy;
+    text-decoration: none;
+    border: 1px solid dimgrey;
+}
+
+#bodyShowSub{
+    background-color: white;
+}
+
+.allLess{
+    align-items: center;
+    text-decoration: none;
+    color:darkslateblue;
+    font-size: 30px;
+    margin: 0; 
+    padding: 0;
+    border: 1px solid dimgrey;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' href='/static/styles/styles.css'>
+    <title>Document</title>
+</head>
+<body id="bodyIndexSub">
+        <a href="/">HOME</a>
+        
+    <h1 class = "headline">ALL THE SUBJECTS</h1>
+    <div>
+        {{#subject}}
+        <a href="/subject/{{id}}">
+            <h3>{{subjectname}}</h3>
+          </a>
+        {{/subject}}
+    </div>
+    <a class="allSub" href="/subject/new">Create a New subject</a>
+</body>
+</html>

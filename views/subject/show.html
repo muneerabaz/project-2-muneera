@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' href='/static/styles/styles.css'>
+    <title>Document</title>
+</head>
+<body id="bodyShowSub">
+        <div class="links">
+                <a class="class2" href="/">Home</a>
+                <a class="class2" href="/subject">All subjects</a>
+        </div>
+        <div>
+            {{#lesson}}
+            <a class="allLess" href="/lesson/{{id}}">{{topic}}</a>
+            {{/lesson}}
+        </div>
+        <a class="allSub" href="/subject/{{id}}/lesson/new">Create a New lessen</a>
+        <form action="/subject/{{id}}?_method=DELETE" method="POST">
+            <button type="submit">Delete subject</button>
+          </form>
+</body>
+</html>
